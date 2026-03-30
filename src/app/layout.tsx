@@ -1,11 +1,3 @@
-import type { Metadata } from 'next'
-import './globals.css'
-
-export const metadata: Metadata = {
-  title: 'AI Photo Restore',
-  description: '一键修复老照片',
-}
-
 export default function RootLayout({
   children,
 }: {
